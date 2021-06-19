@@ -1,0 +1,3 @@
+[submodule "goustito"]
+	path = goustito
+	url = https://github.com/jameshallam93/goustito

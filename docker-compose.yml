@@ -1,0 +1,18 @@
+version: '3.7'
+services:
+    goustito-frontend:
+        image: goustito-frontend:latest
+        environment:
+            - REACT_APP_GOUSTITO_FRONTEND_PORT
+            - REACT_APP_GOUSTITO_FRONTEND_API_ID
+            - REACT_APP_GOUSTITO_FRONTEND_EDAMAM_API_KEY
+        ports:
+        - 3000:3000
+    goustito-server:
+        image: goustito-server:latest
+        environment:
+            - GOUSTITO_SERVER_PORT
+            - GOUSTITO_SERVER_MONGO_DB_URI
+            - GOUSTITO_SERVER_TOKEN_SECRET
+        ports:
+        - 3001:3001
