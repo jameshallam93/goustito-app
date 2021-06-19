@@ -3,4 +3,4 @@
 	url = https://github.com/jameshallam93/goustito
 [submodule "goustitoServer"]
 	path = goustitoServer
-	url = https://github.com/jameshallam93/goustito-server
+	url = https://github.com/jameshallam93/goustitoServer
