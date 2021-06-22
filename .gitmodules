@@ -1,6 +1,8 @@
 [submodule "goustito"]
 	path = goustito
 	url = https://github.com/jameshallam93/goustito
+	branch = main
 [submodule "goustitoServer"]
 	path = goustitoServer
 	url = https://github.com/jameshallam93/goustitoServer
+	branch = main
